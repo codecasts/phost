@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Phost\Http\Controllers\Auth;
 
-use App\User;
+use Phost\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use Phost\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
